@@ -1,0 +1,3610 @@
+{
+	"info": {
+		"_postman_id": "cbb8fd9e-f5cc-4a9d-be41-237c62f04d22",
+		"name": "Практическое задание _10.7.6_Дом питомца",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25262440"
+	},
+	"item": [
+		{
+			"name": "Pairwise №1_cat_abyssian_234_0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "234",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cat&breed__code=abyssian&gender__code=234&age=0",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian"
+						},
+						{
+							"key": "gender__code",
+							"value": "234"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №2_cat_alabay_boy_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cat&breed__code=alabay&gender__code=boy&age=1",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №3_cat_bengal_fem_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cat&breed__code=bengal&gender__code=female&age=2",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №4_cat_indian_female_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cat&breed__code=indian&gender__code=female&age=3",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №5_cat_cockatiel_girl_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cat&breed__code=cockatiel&gender__code=girl&age=4",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl"
+						},
+						{
+							"key": "age",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №6_cat_german_shepherd_male_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cat&breed__code=german_shepherd&gender__code=male&age=5",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cat"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "male"
+						},
+						{
+							"key": "age",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №7_cow_alabay_fem_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cow&breed__code=alabay&gender__code=female&age=3",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №8_cow_bengal_female_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cow&breed__code=bengal&gender__code=female&age=4",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №9_cow_indian_girl_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cow&breed__code=indian&gender__code=girl&age=5",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl"
+						},
+						{
+							"key": "age",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №10_cow_cockatiel_male_0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cow&breed__code=indian&gender__code=girl&age=5",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl"
+						},
+						{
+							"key": "age",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №11_cow_german_shepherd_234_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "234",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cow&breed__code=german_shepherd&gender__code=234&age=1",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "234"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №12_cow_abyssian_boy_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Cow&breed__code=abyssian&gender__code=boy&age=2",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Cow"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №13_Homyak_bengal_girl_0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Homyak&breed__code=bengal&gender__code=girl&age=0",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №14_Homyak_indian_male_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Homyak&breed__code=indian&gender__code=male&age=1",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian"
+						},
+						{
+							"key": "gender__code",
+							"value": "male"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №15_Homyak_cockatiel_234_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "234",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Homyak&breed__code=cockatiel&gender__code=234&age=2",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel"
+						},
+						{
+							"key": "gender__code",
+							"value": "234"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №16_Homyak_german_shepherd_boy_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Homyak&breed__code=german_shepherd&gender__code=boy&age=3",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy"
+						},
+						{
+							"key": "age",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №17_Homyak_abyssian_fem_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Homyak&breed__code=abyssian&gender__code=female&age=4",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №18_Homyak_alabay_female_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Homyak&breed__code=alabay&gender__code=female&age=5",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Homyak"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №19_kot_indian_234_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "234",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Kot&breed__code=indian&gender__code=234&age=3",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian"
+						},
+						{
+							"key": "gender__code",
+							"value": "234"
+						},
+						{
+							"key": "age",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №20_kot_cockatiel_boy_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Kot&breed__code=cockatiel&gender__code=boy&age=4",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy"
+						},
+						{
+							"key": "age",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №21_kot_german_shepherd_fem_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Kot&breed__code=german_shepherd&gender__code=female&age=5",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №22_kot_abyssian_female_0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Kot&breed__code=abyssian&gender__code=female&age=0",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №23_kot_alabay_girl_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Kot&breed__code=alabay&gender__code=girl&age=1",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №24_kot_bengal_male_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Kot&breed__code=bengal&gender__code=male&age=2",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Kot"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal"
+						},
+						{
+							"key": "gender__code",
+							"value": "male"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №25_Loshad_cockatiel_fem_0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Loshad&breed__code=cockatiel&gender__code=female&age=0",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №26_Loshad_german_shepherd_female_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Loshad&breed__code=german_shepherd&gender__code=female&age=1",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №27_Loshad_abyssian_girl_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Loshad&breed__code=abyssian&gender__code=girl&age=2",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №28_Loshad_alabay_male_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Loshad&breed__code=alabay&gender__code=male&age=3",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay"
+						},
+						{
+							"key": "gender__code",
+							"value": "male"
+						},
+						{
+							"key": "age",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №29_Loshad_bengal_234_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "234",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Loshad&breed__code=bengal&gender__code=234&age=4",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal"
+						},
+						{
+							"key": "gender__code",
+							"value": "234"
+						},
+						{
+							"key": "age",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №30_Loshad_indian_boy_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Loshad&breed__code=indian&gender__code=boy&age=5",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Loshad"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy"
+						},
+						{
+							"key": "age",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №31_popugay_german_shepherd_girl_3",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "3",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Popugay&breed__code=german_shepherd&gender__code=girl&age=3",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay"
+						},
+						{
+							"key": "breed__code",
+							"value": "german_shepherd"
+						},
+						{
+							"key": "gender__code",
+							"value": "girl"
+						},
+						{
+							"key": "age",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №32_popugay_abyssian_male_4",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "male",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "4",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Popugay&breed__code=abyssian&gender__code=male&age=4",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay"
+						},
+						{
+							"key": "breed__code",
+							"value": "abyssian"
+						},
+						{
+							"key": "gender__code",
+							"value": "male"
+						},
+						{
+							"key": "age",
+							"value": "4"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №33_popugay_alabay_234_5",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "234",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "5",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Popugay&breed__code=alabay&gender__code=234&age=5",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay"
+						},
+						{
+							"key": "breed__code",
+							"value": "alabay"
+						},
+						{
+							"key": "gender__code",
+							"value": "234"
+						},
+						{
+							"key": "age",
+							"value": "5"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №34_popugay_bengal_boy_0",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "0",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Popugay&breed__code=bengal&gender__code=boy&age=0",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay"
+						},
+						{
+							"key": "breed__code",
+							"value": "bengal"
+						},
+						{
+							"key": "gender__code",
+							"value": "boy"
+						},
+						{
+							"key": "age",
+							"value": "0"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №35_popugay_indian_fem_1",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Popugay&breed__code=indian&gender__code=female&age=1",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay"
+						},
+						{
+							"key": "breed__code",
+							"value": "indian"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pairwise №36_popugay_cockatiel_female_2",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "page",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "page_size",
+							"value": "6",
+							"type": "text"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay",
+							"type": "text"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel",
+							"type": "text"
+						},
+						{
+							"key": "gender__code",
+							"value": "female",
+							"type": "text"
+						},
+						{
+							"key": "age",
+							"value": "2",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://130.193.37.179/api/pet/?page=1&page_size=6&species__name=Popugay&breed__code=cockatiel&gender__code=female&age=2",
+					"protocol": "http",
+					"host": [
+						"130",
+						"193",
+						"37",
+						"179"
+					],
+					"path": [
+						"api",
+						"pet",
+						""
+					],
+					"query": [
+						{
+							"key": "page",
+							"value": "1"
+						},
+						{
+							"key": "page_size",
+							"value": "6"
+						},
+						{
+							"key": "species__name",
+							"value": "Popugay"
+						},
+						{
+							"key": "breed__code",
+							"value": "cockatiel"
+						},
+						{
+							"key": "gender__code",
+							"value": "female"
+						},
+						{
+							"key": "age",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
